@@ -1,0 +1,51 @@
+{
+  "name": "tacticalmap-p101",
+  "id": "tacticalmap-p101",
+  "title": "Coastal Towns",
+  "description": "Coastal Towns and Coastal Locations.",
+  "author": "Tactical Master",
+  "authors": [],
+  "url": "https://www.patreon.com/tacticalmap",
+  "flags": {},
+  "version": "1.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "12",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "coastal-towns",
+      "label": "Coastal Towns",
+      "path": "packs/coastal-towns.db",
+      "type": "Scene",
+	  "entity": "Scene",
+      "module": "coastal-towns",
+      "private": false
+    }
+  ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "relationships": {
+    "requires": [
+      {
+        "id": "tagger",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/TacticalMap/tacticalmap-p101/main/module.json",
+  "download": "https://github.com/TacticalMap/tacticalmap-p101/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false
+}
